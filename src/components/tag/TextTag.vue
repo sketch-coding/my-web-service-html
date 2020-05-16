@@ -1,11 +1,10 @@
 <template>
     <div>
-        <h1>제목 h1 태그</h1>
-        <h2>제목 h2태그</h2>
-        <h3 class="green">제목 h3 태그</h3>
-        <h4 class="green">제목 h4 태그</h4>
-        <h5 class="green">제목 h5 태그</h5>
-        <h6 class="green">제목 h6 태그</h6>
+        <p>
+            <strong>글자 강조</strong>, <i>이탤릭 글자</i><br>
+            <del>취소선</del>, <ins>밑줄</ins><br>
+            a<sup>2</sup> + b<sup>2</sup>, log<sub>2</sub>24
+        </p>
     </div>
 </template>
 
@@ -16,13 +15,5 @@ export default {
 </script>
 
 <style scoped>
-    h1 {
-        color: red;
-    }
-    h2 {
-        color: blue;
-    }
-    .green {
-        color: green;
-    }
+
 </style>
